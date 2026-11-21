@@ -36,3 +36,7 @@ Copy-Item -Recurse kitchen-brigade\skills\kitchen-brigade "$env:USERPROFILE\.cla
 Then, in a project, ask Claude Code to set up a kitchen ("厨房を組んで" / "set up stations for this project"). The skill tells it to copy the four scripts into `Tools/kitchen/` of the project.
 
 Requires Python 3.9 or newer for the scripts. No network, no packages.
+
+## License
+
+MIT. See `LICENSE`.
