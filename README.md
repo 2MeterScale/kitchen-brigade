@@ -22,14 +22,14 @@ Copy the skill folder into your Claude Code skills directory.
 macOS / Linux:
 
 ```sh
-git clone https://github.com/<owner>/kitchen-brigade.git
+git clone https://github.com/2MeterScale/kitchen-brigade.git
 cp -R kitchen-brigade/skills/kitchen-brigade ~/.claude/skills/
 ```
 
 Windows (PowerShell):
 
 ```powershell
-git clone https://github.com/<owner>/kitchen-brigade.git
+git clone https://github.com/2MeterScale/kitchen-brigade.git
 Copy-Item -Recurse kitchen-brigade\skills\kitchen-brigade "$env:USERPROFILE\.claude\skills\"
 ```
 
